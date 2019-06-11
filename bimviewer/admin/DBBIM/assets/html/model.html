@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>模型展示</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=3,user-scalable=yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no"/>
+  <meta http-equiv="keywords" content="">
+  <meta http-equiv=" description" content="">
+  <style>
+    html, body {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #container {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .show-none-message{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-color: #dddddd;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+
+    }
+    .show-none-message p{
+      margin: 0;
+      padding: 0;
+      color: #999999;
+      font-size: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+<div id="container"></div>
+<div class="show-none-message">
+  <p>模型展示区</p>
+</div>
+<!--<script type="text/javascript" charset="UTF-8" src="http://192.168.2.204:1113/public/src/autoSrc.js"></script>-->
+<script type="text/javascript" charset="UTF-8" src="http://192.168.2.235/bimviewer.js"></script>
+</body>
+</html>

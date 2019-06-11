@@ -1,0 +1,28 @@
+{
+  "name": "BIMVIEWER",
+  "version": "1.0.0",
+  "description": "BimViewer admin and api http response",
+  "scripts": {
+    "start": "sudo forever start app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "fstream": "^1.0.11",
+    "mime": "^2.4.2",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.17",
+    "multer": "^1.4.1",
+    "node-xlsx": "^0.15.0",
+    "url-parse": "^1.4.4",
+    "uuid": "^3.3.2",
+    "zip-local": "^0.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
